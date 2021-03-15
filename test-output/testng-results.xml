@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-12T12:50:49 IST" name="Default suite" finished-at="2021-03-12T12:51:28 IST" duration-ms="38722">
+    <groups>
+    </groups>
+    <test started-at="2021-03-12T12:50:49 IST" name="Default test" finished-at="2021-03-12T12:51:28 IST" duration-ms="38722">
+      <class name="tests.ForumTest">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ForumTest@2b8bd14b]" started-at="2021-03-12T12:50:50 IST" name="setup" finished-at="2021-03-12T12:51:09 IST" duration-ms="19352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@305e95a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateNewTopic()[pri:0, instance:tests.ForumTest@2b8bd14b]" started-at="2021-03-12T12:51:09 IST" name="CreateNewTopic" description="create new topic in forum" finished-at="2021-03-12T12:51:22 IST" duration-ms="12889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewTopic -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ForumTest@2b8bd14b]" started-at="2021-03-12T12:51:22 IST" name="failedTest" finished-at="2021-03-12T12:51:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateNewTopic status=SUCCESS method=ForumTest.CreateNewTopic()[pri:0, instance:tests.ForumTest@2b8bd14b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="checkTopicIsOnTheList()[pri:0, instance:tests.ForumTest@2b8bd14b]" started-at="2021-03-12T12:51:22 IST" name="checkTopicIsOnTheList" description="search my topic appear on the topics list" finished-at="2021-03-12T12:51:28 IST" duration-ms="6186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTopicIsOnTheList -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ForumTest@2b8bd14b]" started-at="2021-03-12T12:51:28 IST" name="failedTest" finished-at="2021-03-12T12:51:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTopicIsOnTheList status=SUCCESS method=ForumTest.checkTopicIsOnTheList()[pri:0, instance:tests.ForumTest@2b8bd14b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+      </class> <!-- tests.ForumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

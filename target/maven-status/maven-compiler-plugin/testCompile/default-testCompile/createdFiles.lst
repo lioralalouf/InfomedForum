@@ -1,0 +1,6 @@
+tests\ForumTest.class
+pageObjects\BasePage.class
+utils\Utils.class
+pageObjects\ForumPage.class
+tests\BaseTest.class
+utilities\AllureAttachment.class

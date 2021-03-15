@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.862 s <<< FAILURE! - in TestSuite
+tests.ForumTest.checkTopicIsOnTheList  Time elapsed: 4.653 s  <<< FAILURE!
+java.lang.AssertionError: The searched topic has not been found on the list expected [true] but found [false]
+	at tests.ForumTest.checkTopicIsOnTheList(ForumTest.java:37)
+
