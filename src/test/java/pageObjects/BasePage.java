@@ -20,6 +20,10 @@ public class BasePage {
 		actions = new Actions(driver);
 		js = (JavascriptExecutor) driver;
 	}
+	public void ScrollMouse(WebElement el) {
+		//to perform Scroll on application using Selenium
+		js.executeScript("arguments[0].scrollIntoView();", el);
+	}
 
 	protected void fillText(WebElement el, String text) {
 		highlightElement(el, "black", "blue");

@@ -21,6 +21,7 @@ public class ForumTest extends BaseTest {
 	@Description("create new forum topic and check it has been uploaded to forum page")
 	public void CreateNewTopic() {
 		ForumPage fp = new ForumPage(driver);
+		//fp.ScrollMouse();
 		fp.askQuestion("topic", "content", "liora", "liora@odoro.co.il");
 		Assert.assertEquals(fp.getSuccessMsg(), "שאלתך/תגובתך התקבלה!");
 		AllureAttachment.attachText("found succesfully the following text - " + fp.getSuccessMsg());

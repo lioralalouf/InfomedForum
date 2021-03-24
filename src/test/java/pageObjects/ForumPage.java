@@ -2,6 +2,7 @@ package pageObjects;
 
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -45,6 +46,7 @@ public class ForumPage extends BasePage {
 		fillText(emailInput, email);
 		// click(mailingCheckbox);
 		sleep(2000);
+		ScrollMouse(submitBtn);
 		click(submitBtn);
 		sleep(4000);
 
