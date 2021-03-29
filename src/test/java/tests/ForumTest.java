@@ -13,7 +13,7 @@ import pageObjects.ForumPage;
 import utilities.AllureAttachment;
 
 @Epic("Forum")
-@Feature("publish topic on forum")
+@Feature("publish topic on forum.")
 public class ForumTest extends BaseTest {
 	@Severity(SeverityLevel.CRITICAL)
 	@Story("As A user, I want to publish new topic and get success message for the action.")
