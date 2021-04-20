@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.155 s - in TestSuite
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 46.505 s <<< FAILURE! - in TestSuite
+tests.ForumTest.tc02_checkTopicIsOnTheList  Time elapsed: 7.699 s  <<< FAILURE!
+java.lang.AssertionError: The searched topic has not been found on the list expected [true] but found [false]
+	at tests.ForumTest.tc02_checkTopicIsOnTheList(ForumTest.java:38)
+
+tests.ForumTest.tc03_addNewResponse  Time elapsed: 7.856 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span style="">...</span> is not clickable at point (770, 11). Other element would receive the click: <div class="centeredContent">...</div>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-36HRAIA', ip: '169.254.158.54', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb3ada1ed35c8627173f5228ee5dc31e
+	at tests.ForumTest.tc03_addNewResponse(ForumTest.java:43)
+

@@ -26,7 +26,7 @@ public class BasePage {
 		actions = new Actions(driver);
 		js = (JavascriptExecutor) driver;
 	}
-	public void ScrollMouse(WebElement el) {
+	public void scrollMouse(WebElement el) {
 		//to perform Scroll on application using Selenium
 		js.executeScript("arguments[0].scrollIntoView();", el);
 	}

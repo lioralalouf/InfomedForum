@@ -5,8 +5,8 @@
     <classes>
       <class name="tests.ForumTest">
         <methods>
-          <include name="checkTopicIsOnTheList"/>
-          <include name="CreateNewTopic"/>
+          <include name="tc03_addNewResponse"/>
+          <include name="tc02_checkTopicIsOnTheList"/>
           <include name="setup"/>
         </methods>
       </class> <!-- tests.ForumTest -->
