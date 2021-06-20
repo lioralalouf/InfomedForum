@@ -40,8 +40,9 @@ public class ForumTest extends BaseTest {
 	@Test
 	public void tc03_addNewResponse() {
 		ForumPage fp = new ForumPage(driver);
-		fp.AddResponse("topic (לת)", "newRespons", "responseContent", "lior", "");
+		fp.AddResponse("topic", "newRespons", "responseContent", "lior", "");
 		Assert.assertEquals(fp.getSuccessMsg(), "שאלתך/תגובתך התקבלה!");
 		AllureAttachment.attachText("found succesfully the following text - " + fp.getSuccessMsg());
+		fp.clickClose();
 	}
 }
